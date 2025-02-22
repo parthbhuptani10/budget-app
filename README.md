@@ -85,6 +85,4 @@ Want to improve the Budget App? Contributions are welcome!
 
 🔗 GitHub: https://github.com/parthbhuptani10
 
-🔗 LinkedIn: linkedin.com/in/parth-bhuptani
-
 
