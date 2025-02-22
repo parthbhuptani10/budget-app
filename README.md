@@ -19,33 +19,33 @@ Budget App is a simple and user-friendly web application that helps users manage
 
 🛠 Tech Stack
 
-    Frontend: HTML, CSS, JavaScript
-    
-    Icons: Font Awesome
-    
-    Fonts: Google Fonts (Poppins)
+Frontend: HTML, CSS, JavaScript    
+ 
+Icons: Font Awesome
+ 
+Fonts: Google Fonts (Poppins)
     
 
 📂 Project Structure
 
-/Budget-App
+    /Budget-App
 
-│── index.html         # Main HTML structure
+    │── index.html         # Main HTML structure
 
-│── style.css          # Stylesheet for UI
+    │── style.css          # Stylesheet for UI
 
-│── script.js          # JavaScript for functionality
+    │── script.js          # JavaScript for functionality
 
-│── favicon.ico        # Title bar icon (optional)
+    │── favicon.ico        # Title bar icon (optional)
 
-├── /assets            # Stores images, icons, backgrounds
+    ├── /assets            # Stores images, icons, backgrounds
 
 
 📥 Installation & Setup
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/Budget-App.git
+    git clone https://github.com/your-username/Budget-App.git
 
 2️⃣ Open index.html in a Browser
 
@@ -53,10 +53,10 @@ Simply double-click on index.html to run the app.
 
 3️⃣ (Optional) Host on GitHub Pages
 
-    Push your project to GitHub
-    Go to Settings → Pages
-    Set the branch to main & save
-    Your app will be live at: https://your-username.github.io/Budget-App/
+Push your project to GitHub
+Go to Settings → Pages
+Set the branch to main & save
+Your app will be live at: https://your-username.github.io/Budget-App/
 
 
 💡 Future Enhancements
@@ -71,6 +71,7 @@ Simply double-click on index.html to run the app.
 
 
 🙌 Contributing
+
 Want to improve the Budget App? Contributions are welcome!
 1. Fork the repository
 2. Create a new branch: git checkout -b feature-name
@@ -79,7 +80,11 @@ Want to improve the Budget App? Contributions are welcome!
 5. Open a Pull Request 🚀
 
 📬 Contact
+
 📧 Email: parthbhuptani@gmail.com
+
 🔗 GitHub: https://github.com/parthbhuptani10
+
 🔗 LinkedIn: linkedin.com/in/parth-bhuptani
+
 
