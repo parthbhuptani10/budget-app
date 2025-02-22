@@ -19,9 +19,13 @@ Budget App is a simple and user-friendly web application that helps users manage
 📂 Project Structure
 /Budget-App
 │── index.html         # Main HTML structure
+
 │── style.css          # Stylesheet for UI
+
 │── script.js          # JavaScript for functionality
+
 │── favicon.ico        # Title bar icon (optional)
+
 ├── /assets            # Stores images, icons, backgrounds
 
 📥 Installation & Setup
