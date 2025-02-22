@@ -102,14 +102,22 @@ checkAmountButton.addEventListener("click", () => {
     userAmount.value = "";
 });
 
+//Dark Mode
 const darkModeToggle = document.getElementById("darkModeToggle");
+const body = document.body;
 
-darkModeToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-
-if (document.body.classList.contains("dark-mode")){
+if (localStorage.getItem("darkMode") === "enabled") {
+    body.classList.add("dark-mode");
     darkModeToggle.textContent = "Light Mode";
-} else {
-    darkModeToggle.textContent = "Dark Mode";
 }
+darkModeToggle.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
+
+    if (body.classList.contains("dark-mode")) {
+        localStorage.setItem("darkMode","enabled");
+        darkModeToggle.textContent = "Light Mode";
+    } else {
+        localStorage.setItem("darkMode","disabled");
+        darkModeToggle.textContent = "Dark Mode";
+    }
 });

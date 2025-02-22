@@ -166,54 +166,98 @@ header{
     background-color: #f8f8f8;
 }
 
-/* Dark Mode Colors*/
 #darkModeToggle{
     padding: 8px 12px;
     border: none;
     cursor: pointer;
     background-color: #333;
     color: white;
-    border-radius: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 #darkModeToggle:hover{
     background-color: #555;
 }
 
+/*Dark Mode*/
 .dark-mode{
-    background-color: #181818;
-    color: #eaeaea;
+    background-color: #121212;
+    color: #ff9800;
 }
-
-.dark-mode .container{
-    background-color: #2a2a2a;
-    border: 1px solid #3a3a3a;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.dark-mode button{
-    background-color: #007bff;
-    color: white;
+.dark-mode .submit{
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+    color: #121212;
     border: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-.dark-mode button:hover{
-    background-color: #0056b3;
+.dark-mode .container,
+.dark-mode .total-amount-container,
+.dark-mode .user-amount-container,
+.dark-mode .list{
+    background: linear-gradient(135deg, #252525, #252525);
+    color: #ff9800;
 }
+
+.dark-mode .output-container{
+    background-color: #333;
+    color: #ff9800;
+}
+.dark-mode h3{
+    color: orange;
+}
+
+.dark-mode .submit,
+.dark-mode .edit,
+.dark-mode .delete{
+    background-color: orange;
+    color: black;
+    border: 1px solid #444;
+} 
 
 .dark-mode input{
     background-color: #333;
-    color: #eaeaea;
-    border: 1px solid #444;
+    color: #ff9800;
+    border: 1px solid #ff9800;
 }
 
-.dark-mode .expense-list{
-    background-color: #222;
-    border: 1px solid #3a3a3a;
+.dark-mode input .product-title{
+    background-color: #333;
+    color: #ff9800;
+}
+.dark-mode .sublist-content{
+    border-left: 0.3em solid;
+    border-image: linear-gradient(180deg, #ff9800, #ff5722);
+    border-image-slice: 1;
 }
 
+.dark-mode #expenditure-value,
+.dark-mode #amount,
+ .dark-mode #balance-amount{
+    color: #ff9800;
+}
+
+.dark-mode .edit,
+.dark-mode .delete{
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.5em;
+    border: none;
+    color: #ff9800;
+}
+
+.dark-mode .product,
+.dark-mode .amount{
+    color: #ff9800;
+}
+
+.dark-mode header{
+    background-color: #121212;
+}
+
+/*Responsive*/
 @media  screen and (max-width: 600px) {
     .wrapper{
         font-size: 14px;
